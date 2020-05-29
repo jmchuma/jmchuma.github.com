@@ -12,8 +12,15 @@ div#title {
 	text-align: center;
 }
 
-nav#mainmenu ul {
+nav#mainmenu {
 	background-color: #000;
+	text-align: center;
+}
+
+nav#mainmenu ul {
+	/* Treat the list as a single block so
+	 * it can be centered inside nav.text.*/
+	display: inline-block;
 	list-style-type: none;
 	margin: 10px 0px;
 	/*rm spaces between li*/
