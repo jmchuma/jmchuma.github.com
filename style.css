@@ -1,8 +1,5 @@
 body {
-	font-family: 'Average Sans', Helvetica, Arial, sans-serif;
-	/*font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
-	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-	font-family: 'Inder', Helvetica, Arial, sans-serif;*/
+	font-family: 'Courier Prime';
 	margin: 10px;
 }
 
@@ -10,17 +7,24 @@ main {
 	padding: 5px;
 }
 
+div#title {
+	font-family: 'Lily Script One';
+	text-align: center;
+}
+
 nav#mainmenu ul {
 	background-color: #000;
 	list-style-type: none;
 	margin: 10px 0px;
-	overflow: hidden; /*rm spaces between li*/
+	/*rm spaces between li*/
+	overflow: hidden;
 	padding: 0;
 }
 
 nav#mainmenu li {
 	display: inline;
-	float: left; /*rm spaces between li*/
+	/*rm spaces between li*/
+	float: left;
 	margin: 0px;
 	padding: 0px 5px;
 }
