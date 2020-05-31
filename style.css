@@ -1,7 +1,7 @@
 html {
-	/* Scrollbar always on. This avoid the horizontal
+	/* Scrollbar always on. This avoids the horizontal
 	 * shift when moving from a page that needs
-	 * scrolling to a page that doesni't.*/
+	 * scrolling to a page that doesn't.*/
 	overflow-y: scroll;
 }
 
