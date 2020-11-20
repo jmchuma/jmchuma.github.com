@@ -7,6 +7,7 @@ html {
 
 body {
 	font-family: 'Courier Prime';
+	/*font-size: 1rem;*/
 	margin: 10px;
 }
 
@@ -17,7 +18,7 @@ main {
 div#title {
 	font-family: 'Lily Script One';
 	font-size: x-large;
-	text-align: center;
+	/*text-align: center;*/
 }
 div#title a {
 	color: black;
@@ -26,7 +27,8 @@ div#title a {
 
 nav#mainmenu {
 	background-color: #000;
-	text-align: center;
+	/*text-align: center;*/
+	/*vertical-align: center;*/
 }
 
 nav#mainmenu ul {
