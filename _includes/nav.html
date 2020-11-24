@@ -1,0 +1,16 @@
+{% comment %}
+Creates the navigation menu.
+{% endcomment %}
+<nav id="mainmenu">
+<ul>
+
+{% assign pages = site.pages | where:"lang", page.lang %}
+
+{% for p in pages %}
+	{% if p.name != "index.html" %}
+<li {% if p.name == page.name %}id="current"{% endif %}><a href="{{ p.name }}" title="{{ p.title }}">{{ p.title }}</a></li>
+	{% endif %}
+{% endfor %}
+
+</ul>
+</nav>
