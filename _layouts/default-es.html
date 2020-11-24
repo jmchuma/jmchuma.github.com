@@ -3,11 +3,7 @@ layout: default
 ---
 
 <div id="title"><a href="/es/" title="Página de inicio">? Chumo Mata</a></div>
-{% if page.url == "/es/" %}
-<div id="lang">Esp / <a href="/en/" title="Página de inicio en inglés">Eng</a></div>
-{% else %}
-<div id="lang">Esp / <a href="/en/bio.html" title="Bio en inglés">Eng</a></div>
-{% endif %}
+{% include switch-lang.html %}
 
 {% include nav-es.html %}
 

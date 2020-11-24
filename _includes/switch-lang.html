@@ -1,0 +1,20 @@
+{% comment %}
+Creates links to switch languages.
+{% endcomment %}
+
+{% assign translations = site.pages | where:"pageref", page.pageref | sort: 'lang' %}
+
+{% comment %} Current page has no translation. {% endcomment %}
+{% if translations.size == 1 %}
+	{{ site.data.trans.notrans[page.lang] }}
+{% else %}
+	{% assign msgs = site.data.trans %}
+
+	{% for t in translations %}
+		{% if t.lang == page.lang %}
+			{{ t.lang | capitalize }}
+		{% else %}
+<a href="{{ site.base-url }}{{ t.url }}" title="{{ msgs.link-title[t.lang] }}">{{ t.lang | capitalize }}</a>
+		{% endif %}
+	{% endfor %}
+{% endif %}
