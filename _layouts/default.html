@@ -16,11 +16,9 @@
 </head>
 <body>
 
-{% if page.lang == "eng" %}
-<div id="title"><a href="/en/" title="Home page">? Chumo Mata</a></div>
-{% elsif page.lang == "esp" %}
-<div id="title"><a href="/es/" title="Página de inicio">? Chumo Mata</a></div>
-{% endif %}
+<div id="title">
+<a {% if page.lang == "eng" %} href="/en/" title="Home" {% elsif page.lang == "esp" %} href="/es/" title="Inicio" {% endif %}>? Chumo Mata</a>
+</div>
 
 {% include switch-lang.html %}
 
