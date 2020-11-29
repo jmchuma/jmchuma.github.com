@@ -2,7 +2,7 @@
 Creates links to switch languages.
 {% endcomment %}
 
-{% assign translations = site.pages | where:"pageref", page.pageref | sort: 'lang' %}
+{% assign translations = site.pages | where:"ref", page.ref | sort: 'lang' %}
 
 {% comment %} Current page has no translation. {% endcomment %}
 {% if translations.size == 1 %}
