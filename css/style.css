@@ -1,10 +1,3 @@
-html {
-	/* Scrollbar always on. This avoids the horizontal
-	 * shift when moving from a page that needs
-	 * scrolling to a page that doesn't.*/
-	overflow-y: scroll;
-}
-
 body {
 	font-family: 'Courier Prime';
 	/*font-size: 1rem;*/
@@ -31,25 +24,6 @@ nav#mainmenu {
 	/*vertical-align: center;*/
 }
 
-nav#mainmenu ul {
-	/* Treat the list as a single block so
-	 * it can be centered inside nav.text.*/
-	display: inline-block;
-	list-style-type: none;
-	margin: 10px 0px;
-	/*rm spaces between li*/
-	overflow: hidden;
-	padding: 0;
-}
-
-nav#mainmenu li {
-	display: inline;
-	/*rm spaces between li*/
-	float: left;
-	margin: 0px;
-	padding: 0px 5px;
-}
-
 nav#mainmenu a {
 	color: #fff;
 	text-decoration: none;
@@ -65,4 +39,33 @@ nav#mainmenu li#current a {
 
 nav#mainmenu li:hover {
 	background-color: #edd400;
+}
+
+@media screen and (min-width: 800px) {
+	html {
+		/* Scrollbar always on. This avoids the horizontal
+		 * shift when moving from a page that needs
+		 * scrolling to a page that doesn't.*/
+		overflow-y: scroll;
+	}
+
+	nav#mainmenu ul {
+		/* Treat the list as a single block so
+		 * it can be centered inside nav.text.*/
+		display: inline-block;
+		list-style-type: none;
+		margin: 10px 0px;
+		/*rm spaces between li*/
+		overflow: hidden;
+		padding: 0;
+}
+
+
+	nav#mainmenu li {
+		display: inline;
+		/*rm spaces between li*/
+		float: left;
+		margin: 0px;
+		padding: 0px 5px;
+	}
 }
