@@ -24,6 +24,10 @@ nav#mainmenu {
 	/*vertical-align: center;*/
 }
 
+nav#mainmenu ul {
+	list-style-type: none;
+}
+
 nav#mainmenu a {
 	color: #fff;
 	text-decoration: none;
@@ -53,7 +57,6 @@ nav#mainmenu li:hover {
 		/* Treat the list as a single block so
 		 * it can be centered inside nav.text.*/
 		display: inline-block;
-		list-style-type: none;
 		margin: 10px 0px;
 		/*rm spaces between li*/
 		overflow: hidden;
