@@ -22,12 +22,21 @@ come in handy for me or someone else.
 
 # TODO
 ## For sure
+* Check if
+  [this](https://www.sylvaindurand.org/making-jekyll-multilingual/)
+  is a better option to make the site multilingual.
 * Change how I generate the [navigation menu](https://jekyllrb.com/tutorials/navigation/).
 * Stuff I want to do add after checking [htmlhead](https://htmlhead.dev/)
     * Add meta with description in pages.
     * Add meta for robots to control the behavior of search engines crawling and indexing the site.
     * Add link alternate for translations.
 * Make it look good on mobile.
+    * [Viewport](https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag) at MDN.
+    * [CSS Media Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
+      at MDN.
+    * [Responsive web design basics](https://web.dev/responsive-web-design-basics/)
+    * [CSS values and units](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units)
+    * [HTML Units](https://www.w3.org/Style/Examples/007/units.en.html).
 
 ## Maybe
 * Stuff I may add after checking [htmlhead](https://htmlhead.dev/)
@@ -46,3 +55,17 @@ come in handy for me or someone else.
     on how to for the scroll bar to appear to prevent the page from jumping.
 * A [post](https://forestry.io/blog/creating-a-multilingual-blog-with-jekyll/)
   with a guide on how to make your Jekyll blog multilingual.
+* On how to make it look good on mobile
+    * This
+      [gist](https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488)
+      with CSS media queries.
+    * This Stack Overflow
+      [post](https://stackoverflow.com/questions/6370690/media-queries-how-to-target-desktop-tablet-and-mobile)
+      on how to target desktop tablet and mobile.
+    * This Stack Overflow
+      [post](https://stackoverflow.com/questions/26888751/chrome-device-mode-emulation-media-queries-not-working)
+      reminding that there must be a meta tag declaring a behaviour for
+      the viewport to get the media quieries to work.
+    * This
+      [article](https://www.mightyminnow.com/2013/11/what-is-mobile-first-css-and-why-does-it-rock/)
+      about mobile first CSS.
