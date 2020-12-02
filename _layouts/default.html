@@ -16,6 +16,7 @@
 </head>
 <body>
 
+<header>
 <div id="title">
 <a {% if page.lang == "eng" %} href="/en/" title="Home" {% elsif page.lang == "esp" %} href="/es/" title="Inicio" {% endif %}>? Chumo Mata</a>
 </div>
@@ -23,8 +24,11 @@
 {% include switch-lang.html %}
 
 {% include nav.html %}
+</header>
 
+<main>
 {{ content }}
+</main>
 
 </body>
 

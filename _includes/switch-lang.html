@@ -2,6 +2,10 @@
 Creates links to switch languages.
 {% endcomment %}
 
+{% comment %}
+Using site.pages because all pages in the menu
+should be under /es or /en.
+{% endcomment %}
 {% assign translations = site.pages | where:"ref", page.ref | sort: 'lang' %}
 
 {% comment %} Current page has no translation. {% endcomment %}
@@ -12,7 +16,7 @@ Creates links to switch languages.
 
 	{% for t in translations %}
 		{% if t.lang == page.lang %}
-			{{ t.lang | capitalize }}
+<span id="current-lang">{{ t.lang | capitalize }}</span>
 		{% else %}
 <a href="{{ site.base-url }}{{ t.url }}" title="{{ msgs.link-title[t.lang] }}">{{ t.lang | capitalize }}</a>
 		{% endif %}

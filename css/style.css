@@ -5,7 +5,13 @@ body {
 }
 
 main {
-	padding: 5px;
+	margin: 0em 1em;
+}
+
+header * {
+	background-color: #000;
+	color: white;
+	text-decoration: none;
 }
 
 div#title {
@@ -14,36 +20,29 @@ div#title {
 	/*text-align: center;*/
 }
 
-div#title a {
-	color: black;
-	text-decoration: none;
+#current-lang {
+	color: #555753;
 }
 
 nav#mainmenu {
-	background-color: #000;
 	/*text-align: center;*/
 	/*vertical-align: center;*/
 }
 
 nav#mainmenu ul {
 	list-style-type: none;
+	margin: 0em;
 }
 
-nav#mainmenu a {
-	color: #fff;
-	text-decoration: none;
+nav#mainmenu li#current-page {
+	color: #555753;
 }
 
-nav#mainmenu li#current {
-	background-color: #fff;
-}
-
-nav#mainmenu li#current a {
-	color: #000;
-}
-
-nav#mainmenu li:hover {
-	background-color: #edd400;
+/* The default style in some browsers creates a gap
+ * between the first element and the menu.
+ */
+main *:first-child {
+	margin-top: 0em;
 }
 
 @media screen and (min-width: 800px) {
