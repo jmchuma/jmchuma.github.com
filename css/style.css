@@ -46,6 +46,7 @@ nav#mainmenu li#current-page {
 /* 2. Main Content */
 main {
 	margin: 0em 1em;
+	padding-top: 1.5em;
 }
 
 /* The default style in some browsers creates a gap
