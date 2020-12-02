@@ -35,8 +35,6 @@ come in handy for me or someone else.
     * [CSS Media Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
       at MDN.
     * [Responsive web design basics](https://web.dev/responsive-web-design-basics/)
-    * [CSS values and units](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units)
-    * [HTML Units](https://www.w3.org/Style/Examples/007/units.en.html).
 
 ## Maybe
 * Stuff I may add after checking [htmlhead](https://htmlhead.dev/)
@@ -53,6 +51,9 @@ come in handy for me or someone else.
 * Stack Overflow, of course. For lots of things, but these were a lifesaver:
     * [This](https://stackoverflow.com/questions/9650762/how-to-compensate-for-vertical-scrollbar-when-it-is-not-yet-present)
     on how to for the scroll bar to appear to prevent the page from jumping.
+* On HTML units
+    * [CSS values and units](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units)
+    * [HTML Units](https://www.w3.org/Style/Examples/007/units.en.html).
 * A [post](https://forestry.io/blog/creating-a-multilingual-blog-with-jekyll/)
   with a guide on how to make your Jekyll blog multilingual.
 * On how to make it look good on mobile
