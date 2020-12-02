@@ -3,14 +3,14 @@ Creates the navigation menu.
 {% endcomment %}
 <nav id="mainmenu">
 <ul>
+{% assign items = site.data.navigation[page.lang] %}
 
-{% assign pages = site.pages | where:"lang", page.lang %}
-
-{% for p in pages %}
-	{% if p.name != "index.html" %}
-<li {% if p.name == page.name %}id="current"{% endif %}><a href="{{ p.name }}" title="{{ p.title }}">{{ p.title }}</a></li>
+{% for item in items %}
+	{% if item.ref == page.ref %}
+	<li id="current-page">{{ item.title }}</li>
+	{% else %}
+	<li><a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a></li>
 	{% endif %}
 {% endfor %}
-
 </ul>
 </nav>

@@ -1,0 +1,9 @@
+eng:
+  - ref: bio
+    title: Bio
+    url: /en/bio.html
+
+esp:
+  - ref: bio
+    title: Bio
+    url: /es/bio.html
