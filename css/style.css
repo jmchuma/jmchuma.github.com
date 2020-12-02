@@ -7,6 +7,7 @@ body {
 /* 1. Header Stuff */
 header {
 	background-color: #000;
+	padding: 1em 1em 0em 1em;
 }
 
 header * {
