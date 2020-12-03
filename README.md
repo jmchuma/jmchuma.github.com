@@ -28,7 +28,6 @@ come in handy for me or someone else.
 * Change how I generate the [navigation menu](https://jekyllrb.com/tutorials/navigation/).
 * Stuff I want to do add after checking [htmlhead](https://htmlhead.dev/)
     * Add meta with description in pages.
-    * Add meta for robots to control the behavior of search engines crawling and indexing the site.
     * Add link alternate for translations.
 * Make it look good on mobile.
     * [Viewport](https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag) at MDN.
@@ -48,6 +47,8 @@ come in handy for me or someone else.
     * The step by step [tutorial](https://jekyllrb.com/docs/step-by-step/01-setup/).
 * The Liquid template language [manual](https://shopify.github.io/liquid/).
 * [MDN Web Docs](https://developer.mozilla.org/) for sooooo many things.
+* Stuff I added after checking [htmlhead](https://htmlhead.dev/)
+    * Meta robots to suggest a behavior to search engines and crawlers.
 * Stack Overflow, of course. For lots of things, but these were a lifesaver:
     * [This](https://stackoverflow.com/questions/9650762/how-to-compensate-for-vertical-scrollbar-when-it-is-not-yet-present)
     on how to for the scroll bar to appear to prevent the page from jumping.
