@@ -16,7 +16,7 @@ should be under /es or /en.
 
 	{% for t in translations %}
 		{% if t.lang == page.lang %}
-<span id="current-lang">{{ t.lang | capitalize }}</span>
+<span class="current">{{ t.lang | capitalize }}</span>
 		{% else %}
 <a href="{{ site.base-url }}{{ t.url }}" title="{{ msgs.link-title[t.lang] }}">{{ t.lang | capitalize }}</a>
 		{% endif %}
