@@ -1,7 +1,7 @@
 notrans:
-  eng: "No translation available… yet."
-  esp: "No se ha traducido la página… todavía."
+  en: "No translation available… yet."
+  es: "No se ha traducido la página… todavía."
 
 link-title:
-  eng: "View in English."
-  esp: "Ver en español."
+  en: "View in English."
+  es: "Ver en español."

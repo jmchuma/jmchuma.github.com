@@ -20,12 +20,7 @@
 <header>
 
 <div id="title">
-<!--a {% if page.lang == "eng" %} href="/en/" title="Home" {% elsif page.lang == "esp" %} href="/es/" title="Inicio" {% endif %}>____ Chumo Mata</a-->
-{% if page.lang == "eng" %}
-	<a href="/en/" title="Home">____ Chumo Mata</a>
-{% elsif page.lang == "esp" %}
-	<a href="/es/" title="Inicio">____ Chumo Mata</a>
-{% endif %}
+	<a href="/{{ page.lang }}" title="{{ page.title }}">____ Chumo Mata</a>
 </div>
 
 {% include switch-lang.html %}
