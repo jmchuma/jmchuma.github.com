@@ -6,11 +6,11 @@ Creates the navigation menu.
 {% assign items = site.data.navigation[page.lang] %}
 
 {% for item in items %}
-	{% if item.ref == page.ref %}
-	<li class="current">{{ item.title }}</li>
-	{% else %}
-	<li><a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a></li>
-	{% endif %}
+    {% if item.ref == page.ref %}
+    <li class="current">{{ item.title }}</li>
+    {% else %}
+    <li><a href="{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a></li>
+    {% endif %}
 {% endfor %}
 </ul>
 </nav>

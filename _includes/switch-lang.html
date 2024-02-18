@@ -10,15 +10,15 @@ should be under /es or /en.
 
 {% comment %} Current page has no translation. {% endcomment %}
 {% if translations.size == 1 %}
-	{{ site.data.trans.notrans[page.lang] }}
+    {{ site.data.trans.notrans[page.lang] }}
 {% else %}
-	{% assign msgs = site.data.trans %}
+    {% assign msgs = site.data.trans %}
 
-	{% for t in translations %}
-		{% if t.lang == page.lang %}
+    {% for t in translations %}
+        {% if t.lang == page.lang %}
 <span class="current">{{ t.lang | capitalize }}</span>
-		{% else %}
+        {% else %}
 <a href="{{ site.base-url }}{{ t.url }}" title="{{ msgs.link-title[t.lang] }}">{{ t.lang | capitalize }}</a>
-		{% endif %}
-	{% endfor %}
+        {% endif %}
+    {% endfor %}
 {% endif %}

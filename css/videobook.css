@@ -1,30 +1,30 @@
 html {
-	/* Scrollbar always on. This avoids the horizontal
-	 * shift when moving from a page that needs
-	 * scrolling to a page that doesn't.*/
-	overflow-y: scroll;
+    /* Scrollbar always on. This avoids the horizontal
+     * shift when moving from a page that needs
+     * scrolling to a page that doesn't.*/
+    overflow-y: scroll;
 }
 
 body {
-	font-family: 'Courier Prime';
-	font-size: 1rem;
-	margin: 10px;
+    font-family: 'Courier Prime';
+    font-size: 1rem;
+    margin: 10px;
 }
 
 div#maintitle {
-	font-family: 'Lily Script One';
-	font-size: xx-large;
-	margin-top: 20%;
-	text-align: center;
+    font-family: 'Lily Script One';
+    font-size: xx-large;
+    margin-top: 20%;
+    text-align: center;
 }
 
 div#maincontent {
-	/*text-align: center;*/
-	display: flex;
-	align-items: center;
-	justify-content: center;
+    /*text-align: center;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /*iframe {
-	display: block;
+    display: block;
 }*/
